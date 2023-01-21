@@ -1,0 +1,55 @@
+:root {
+    --navbar-bg: #007BFF;
+    --bs-nav-link-hover-color: #ddd;
+}
+body {
+    background-image: url("/assets/images/hatter.jpg");
+}
+
+.container {
+    background-color: white;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    --bs-navbar-color: #cacaca;
+    --bs-nav-link-color: #cacaca;
+    --bs-navbar-active-color: white;
+    --bs-nav-link-hover-color: #red;
+}
+nav.navbar {
+    background-color:var(--navbar-bg);
+    color: var(--menu-fc);
+}
+
+.polaroid {
+    width: 100%;
+    border: 1px solid silver;
+    padding: 5px;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.comment-head {
+    font-style: italic;
+}
+
+.comment-head .name {
+    font-size: 110%;
+    font-style: normal;
+}
+
+.comment {
+    border: 1px solid silver;
+    padding: 15px;
+}
+
+.nav-left li {
+    border: 1px solid #d6d6d6;
+}
